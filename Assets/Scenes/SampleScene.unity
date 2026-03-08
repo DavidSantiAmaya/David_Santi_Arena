@@ -464,9 +464,11 @@ MonoBehaviour:
   width: 80
   height: 60
   updateTime: 0.1
-  cellspawn: 0.95
+  cellspawn: 0.99
   cellPrefab: {fileID: 6618312292374872336, guid: 1ad8557202eec5a48960f9a24a3c0d39, type: 3}
   text: {fileID: 1711831237}
+  sandGenerator: 1
+  spawnChanceTop: 0.1
 --- !u!4 &743813365
 Transform:
   m_ObjectHideFlags: 0
@@ -529,8 +531,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -586,7 +588,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0058784, y: 3.4803455, z: 12.995972, w: 0.5029397}
+  m_margin: {x: 1.0058784, y: 3.4803455, z: 6.5063295, w: 0.5029397}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -660,7 +662,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -3}
+  m_AnchoredPosition: {x: 9.03, y: -0.18}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
